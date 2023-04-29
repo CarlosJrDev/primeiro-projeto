@@ -5,12 +5,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Login</title>
 </head>
-<h1>login</h1>
 
 <body>
+    <main>
+        <section id="login">
+            <div id="imagem">
 
+            </div>
+            <div id="formulario">
+                <h1>Login</h1>
+                <form action="login.php" method="post" autocomplete="on">
+                    <div class="campo">
+
+                        <i class="material-icons" name="user" id="iuser">person</i>
+                        <input type="text" placeholder="Username" name="user" id="iuser" autocomplete="email"
+                            maxlength="25">
+                    </div>
+                    <div class="campo">
+                        <i class="material-icons">vpn_key</i>
+                        <input type="password" placeholder="Password" autocomplete="current-password" minlength="8"
+                            maxlength="20">
+                    </div>
+
+
+                    <input type="submit" value="Entrar">
+                    <a href="#">Esqueci minha senha</a>
+
+
+                </form>
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>
